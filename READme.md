@@ -13,3 +13,25 @@ What kind of files should you ignore?
 • Generated files like dist folders
 • Dependencies which can be downloaded from a package manager
 • And there might be other reasons (maybe you make little todo.md files)
+
+React examples:
+# Created by https://www.toptal.com/developers/gitignore/api/react
+# Edit at https://www.toptal.com/developers/gitignore?templates=react
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/react

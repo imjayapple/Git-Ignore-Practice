@@ -35,3 +35,23 @@ thumb
 sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/react
+
+Ignore Specific Directory:
+
+Entire directories can be ignored, just include their paths, followed by a slash " / ":
+
+ex.
+GIT-IGNORE-PRACTICE/
+
+Wildcard Operator:
+
+"The * matches 0 or more characters (except the /).
+So, for example, *.log matches any file ending with the .log extension
+
+Negation
+
+You can use a prefix of ! to negate a file that would be ignored.
+
+ex.
+*.log
+!example.log

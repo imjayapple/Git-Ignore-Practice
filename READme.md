@@ -55,3 +55,11 @@ You can use a prefix of ! to negate a file that would be ignored.
 ex.
 *.log
 !example.log
+
+Important Note:
+Any lines that start with # are comments, and these are very important when it comes to
+keeping track of what files you are omitting and why.
+
+ex.
+# macOS Files
+.DS_Store

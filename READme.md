@@ -63,3 +63,6 @@ keeping track of what files you are omitting and why.
 ex.
 # macOS Files
 .DS_Store
+
+# Node packages, do not commit
+.node_modules
